@@ -17,6 +17,6 @@ python3 main.py PATH_TO_MODULES_JSON
 Docker image can be used to verify multiple `module.json` files within a directory.
 
 ```shell script
-docker run --rm -it -v PATH_TO_YOUR_TERRAFORM_DIRECTORY:/tf sysdogs/tfmodvercheck:0.1.0
+docker run --rm -it -v PATH_TO_YOUR_TERRAFORM_DIRECTORY:/tf docker.pkg.github.com/sysdogs/tfmodvercheck/tfmodvercheck:0.1.0
 ```
 
